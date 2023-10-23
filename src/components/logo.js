@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Logo({ isSticky, footer, ...props }) {
   return (
-      <Image src="https://uilogos.co/img/logomark/lighting.png" width={50} height={50} alt="logo" />
+      <Image src="https://res.cloudinary.com/dxdsyeoz9/image/upload/v1698096155/lighting_pqbote.png" width={50} height={50} alt="logo" />
   );
 }
 const styles = {
