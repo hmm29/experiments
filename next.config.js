@@ -3,6 +3,7 @@ const optimizedImages = require('next-optimized-images');
 
 const nextConfiguration = {
   images: {
+    loader: 'akamai',
     disableStaticImages: true,
     domains: ['uilogos.co'],
   },
