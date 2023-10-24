@@ -24,7 +24,7 @@ const Banner = () => {
           <Box sx={styles.content}>
             <div sx={styles.newsUpdate}>
               <span>NEWS</span>
-              We have updated our term &amp; condition policy{' '}
+              We have updated our Terms &amp; Conditions policy{' '}
               <IoIosArrowForward
                 color={rgba('#02073E', 0.3)}
                 size="14px"
@@ -32,13 +32,16 @@ const Banner = () => {
               />
             </div>
             <Heading as="h1">
-            Maximize Your Income with Confidence.
+            Unlock Your True Worth
+            </Heading>
+            <Heading as="h2">
+            Get the Job Offer You Deserve
             </Heading>
             <Text as="p">
-            We'll meticulously analyze your job offers using market data from established compensation sources to help you get paid more.
+            Get personalized and actionable negotiation support, so you can unlock the doors to higher pay and better benefits. 
             </Text>
             <div sx={styles.buttonGroup}>
-              <Button variant="primary" >GET MY SALARY REPORT</Button>
+              <Button variant="primary" >ANALYZE MY JOB OFFER</Button>
               <Button variant="white" className="white">
                 <a href="https://res.cloudinary.com/dxdsyeoz9/image/upload/v1698090202/ac1_yk0ohd.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
                   VIEW SAMPLE

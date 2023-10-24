@@ -42,7 +42,7 @@ export default function Header() {
               ))}
             </nav>
             <Button variant="primary" sx={styles.button}>
-              GET MY SALARY REPORT
+              ANALYZE MY JOB OFFER
             </Button>
             <NavbarDrawer />
           </Container>
