@@ -41,12 +41,16 @@ const Banner = () => {
             Get personalized and actionable negotiation support, so you can unlock the doors to higher pay and better benefits. 
             </Text>
             <div sx={styles.buttonGroup}>
-              <Button variant="primary" >ANALYZE MY JOB OFFER</Button>
-              <Button variant="white" className="white">
-                <a href="https://res.cloudinary.com/dxdsyeoz9/image/upload/v1698090202/ac1_yk0ohd.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
-                  VIEW SAMPLE
+                <a href="https://airtable.com/appOLN7VmpjLwgW5C/shrJzzXTJNywrdbVm" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                  <Button variant="primary" >    
+                  ANALYZE MY JOB OFFER
+                  </Button>
                 </a>
-              </Button>
+                <a href="https://res.cloudinary.com/dxdsyeoz9/image/upload/v1698090202/ac1_yk0ohd.pdf" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                  <Button variant="white" className="white">
+                  VIEW SAMPLE
+                  </Button>
+                </a>
             </div>
           </Box>
           <Flex as="figure" sx={styles.illustration}>

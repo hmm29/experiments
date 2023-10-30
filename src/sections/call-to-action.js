@@ -16,7 +16,11 @@ const CallToAction = () => {
             Do you have any questions? Feel free to contact us!
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button variant="text">Contact us now</Button>
+              <a href="https://airtable.com/appOLN7VmpjLwgW5C/shrJzzXTJNywrdbVm" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+                <Button variant="text">    
+                  ANALYZE MY JOB OFFER
+                  </Button>
+                </a>
           </Box>
         </Box>
       </Container>

@@ -41,9 +41,11 @@ export default function Header() {
                 <NavLink key={i} path={path} label={label} />
               ))}
             </nav>
-            <Button variant="primary" sx={styles.button}>
-              ANALYZE MY JOB OFFER
-            </Button>
+              <a href="https://airtable.com/appOLN7VmpjLwgW5C/shrJzzXTJNywrdbVm" target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}}>
+              <Button variant="primary" sx={styles.button}>
+                  ANALYZE MY JOB OFFER
+                  </Button>
+                </a>
             <NavbarDrawer />
           </Container>
         </header>
