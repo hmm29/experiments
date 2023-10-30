@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://startuplanding.io
+Host: https://netlify.app
 
 # Sitemaps
-Sitemap: https://startuplanding.io/sitemap.xml
+

@@ -17,8 +17,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Support System Landing"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="Personalized Job Offer Negotiation"
+          description="Join our community of empowered job seekers. Unlock the power of our AI negotiation tool and say goodbye to missed financial opportunities."
         />
         <Banner />
         <Services />
